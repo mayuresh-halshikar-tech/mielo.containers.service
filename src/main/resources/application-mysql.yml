@@ -1,0 +1,8 @@
+spring:
+  mielo:
+    container:
+      name: mysql
+      image: mysql:latest
+      port: 6606
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver

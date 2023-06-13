@@ -1,0 +1,8 @@
+server:
+  servlet:
+    application-display-name: Containers
+spring:
+  datasource:
+    database: my_test_database
+    username: root
+    password: root@123
