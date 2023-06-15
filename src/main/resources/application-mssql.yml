@@ -1,0 +1,8 @@
+spring:
+  mielo:
+    container:
+      name: mssql
+      image: mcr.microsoft.com/mssql/server:2017-latest
+      port: 1444
+  datasource:
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
